@@ -1,0 +1,16 @@
+<main>
+    <section>
+      <h2>Depression Test</h2>
+      <form action="result.html" method="GET">
+        <div *ngFor="let question of questions">
+          <label [for]="question.id">{{ question.text }}</label><br>
+          <input type="radio" [id]="question.id + '_yes'" [name]="question.id" value="yes">
+          <label [for]="question.id + '_yes'" >Yes</label><br>
+          <input type="radio" [id]="question.id + '_no'" [name]="question.id" value="no">
+          <label [for]="question.id + '_no'">No</label><br><br>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  

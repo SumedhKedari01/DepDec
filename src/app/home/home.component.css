@@ -1,0 +1,49 @@
+
+/* Depression Info Section */
+.depression-info {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.depression-info h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.depression-info h2 {
+    margin-top: 1.5rem;
+    color: #333;
+}
+
+.depression-info h3 {
+    margin-top: 1rem;
+    color: #555;
+}
+
+.depression-info p,
+.depression-info ul {
+    margin: 1rem 0;
+    color: #555;
+}
+
+.depression-info ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.depression-info ul li {
+    margin-bottom: 0.5rem;
+}
+
+.content-image {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
